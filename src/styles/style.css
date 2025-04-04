@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+header {
+    background: #333; /* Dark gray for header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #aaa; /* Light gray for subtitle */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #40e0d0; /* Turquoise hover effect */
+}
+
+#hero {
+    background: linear-gradient(to right, #333, #000); /* Black gradient */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#hero .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero .hero-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#hero .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    background-color: #40e0d0; /* Turquoise button */
+    color: #000; /* Black text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #2bb3a3; /* Darker turquoise */
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #222; /* Dark gray for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333; /* Dark gray for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
